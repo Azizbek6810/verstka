@@ -21,6 +21,9 @@ footer {
         display: flex;
         li{
             padding: 10px 20px;
+            a{
+              color: $main-color;
+            }
         }
       }
     }
