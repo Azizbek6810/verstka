@@ -106,7 +106,7 @@ ol {
       @include h6;
       text-align: center;
     }
-    h4 {
+    .meet-paragraph {
       @include h4;
       text-align: center;
       margin-bottom: 78px;
@@ -159,7 +159,7 @@ ol {
               rgba(255, 144, 102, 0.5) 91.142%
             );
           }
-          h5 {
+          h3 {
             color: #0f2137;
             font-size: 18px;
             font-weight: 700;
@@ -258,6 +258,9 @@ ol {
     }
     div {
       text-align: center;
+      video {
+        width: 1110px;
+      }
     }
   }
 }
@@ -272,7 +275,7 @@ ol {
       @include h6;
       text-align: center;
     }
-    h4 {
+    .why-customer-mini-paragraph {
       @include h4;
       text-align: center;
       margin-bottom: 58px;
@@ -300,7 +303,7 @@ ol {
           align-items: center;
           gap: 13px;
           div {
-            h5 {
+            h3 {
               color: #0f2137;
               font-size: 18px;
               font-weight: 500;
@@ -376,7 +379,7 @@ ol {
       @include h6;
       text-align: center;
     }
-    h4 {
+    .tutorials-paragraph {
       @include h4;
       text-align: center;
       margin-bottom: 68px;
@@ -401,7 +404,7 @@ ol {
           }
           .blog-info {
             padding: 25px 29px;
-            h5 {
+            h3 {
               color: #0f2137;
               font-size: 20px;
               font-weight: 700;
@@ -471,5 +474,3 @@ ol {
     }
   }
 }
-
-
